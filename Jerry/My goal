@@ -2,7 +2,7 @@
 
 void mygoal();
 
-void main()
+int main()
 {
   mygoal();
   return 0;
