@@ -8,5 +8,5 @@ int main()
 }
 void introduction()
 {
-   std::cout << "Hi, I'm Yezhi. Nice to meet you!\n@Jason, thank you correct that." << std::endl;
+   std::cout << "Hi, I'm [Name]" << std::endl;
 }
