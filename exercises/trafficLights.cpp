@@ -8,7 +8,45 @@ Test your result by creating a small map with seven traffic lights. Make three o
 
 #include <iostream>
 using namespace std;
+void turnLights(string lights[]);
+const int MAX = 8;
 int main()
 {
+   // string *lights[] = {"red", "green", "red", "green", "green", "green", "red", "green"};
+   string lights[MAX];
+   lights[0] = "red";
+   lights[1] = "green";
+   lights[2] = "red";
+   lights[3] = "green";
+   lights[4] = "green";
+   lights[5] = "green";
+   lights[6] = "green";
+   lights[7] = "red";
+
+   turnLights(lights);
+
+   // turnLights(&lights);
+   // int size = sizeof(lights) / 24;
+   for (int i = 0; i < MAX; i++)
+   {
+      cout << lights[i] << endl;
+   }
+
    return 0;
+}
+
+void turnLights(string lights[])
+{
+   // int size = sizeof(lights) / 24;
+   for (int i = 0; i < MAX; i++)
+   {
+      if (lights[i] == "red")
+      {
+         lights[i] = "green";
+      }
+      else if (lights[i] == "green")
+      {
+         lights[i] = "red";
+      }
+   }
 }
