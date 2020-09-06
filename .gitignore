@@ -36,3 +36,6 @@
 
 #Vs Code Debugger
 *.out.dSYM
+
+#Mac
+*.DS_Store
