@@ -11,3 +11,4 @@
 - [Leap Year](exercises/leapYear.cpp) >> [Can You Think Like a Computer?](http://cis.scc.losrios.edu/~krofb/cisp301/lecture-notes/algorithms/)
 - [Balancing Act](exercises/balancingAct.cpp) >> [Can You Think Like a Computer?](http://cis.scc.losrios.edu/~krofb/cisp301/lecture-notes/algorithms/)
 - [Traffic Lights](exercises/trafficLights.cpp) >> [Can You Think Like a Computer?](http://cis.scc.losrios.edu/~krofb/cisp301/lecture-notes/algorithms/)
+- [Pocket Change](week_3/pocketChange.cpp) >> [Lab Assignment #2 - Pocket Change](https://lrccd.instructure.com/courses/99030/assignments/1885657)
