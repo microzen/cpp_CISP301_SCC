@@ -5,7 +5,7 @@
  * File Created: Tuesday September 8th 2020 03:54 am
  * Author: Microzenas(Microzenas@gmail.com)
  * -----
- * Last Modified: Tuesday September 8th 2020 03:39 pm
+ * Last Modified: Tuesday September 8th 2020 04:40 pm
  * Modified By: Microzenas
  * -----------------------------------------------------------------------
  */
@@ -30,8 +30,6 @@ int main(int argc,char *argv[])
     inputPennies(pennies);
     countChange(quarters, dimes, nickels, pennies, amount);
     outputMoney(quarters, dimes, nickels, pennies, amount);
-
-    return 0;
 }
 //
 // A input quarter module.
@@ -52,7 +50,7 @@ void inputDimes(int &dimes)
     std::cin >> dimes;
 }
 //
-// A inout nickels module by user.
+// A input nickels module by user.
 // 'out'  parameter: nickels
 //
 void inputNickels(int &nickels)
