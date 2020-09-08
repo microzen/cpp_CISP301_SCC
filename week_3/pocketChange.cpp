@@ -5,7 +5,7 @@
  * File Created: Tuesday September 8th 2020 03:54 am
  * Author: Microzenas(Microzenas@gmail.com)
  * -----
- * Last Modified: Tuesday September 8th 2020 03:27 pm
+ * Last Modified: Tuesday September 8th 2020 03:39 pm
  * Modified By: Microzenas
  * -----------------------------------------------------------------------
  */
@@ -19,7 +19,9 @@ void outputMoney(int quarters, int dimes, int nickels, int pennies, double amoun
 
 int main(int argc,char *argv[])
 {
+    // using for recording number of quarters, dimes, nickels, pennies.
     int quarters, dimes, nickels, pennies;
+    // using for recording amount total.
     double amount;
 
     inputQuarters(quarters);
