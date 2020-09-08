@@ -5,7 +5,7 @@
  * File Created: Monday August 31st 2020 05:31 pm
  * Author: Microzenas(Microzenas@gmail.com)
  * -----
- * Last Modified: Saturday September 5th 2020 04:01 pm
+ * Last Modified: Tuesday September 8th 2020 02:09 pm
  * Modified By: Microzenas
  * -----------------------------------------------------------------------
  */
@@ -14,7 +14,7 @@
 
 void welcome();
 void inputData(double &pounds);
-void getCandyPrice(double &pounds, double &price);
+void getCandyPrice(double pounds, double &price);
 void outputResult(double &total);
 
 int main()
@@ -45,7 +45,7 @@ void inputData(double &pounds)
 /*
 *   get the price of candy by pounds.
 */
-void getCandyPrice(double &pounds, double &price)
+void getCandyPrice(double pounds, double &price)
 {
     // double price;
     if (pounds <= 5 && pounds >= 0)
