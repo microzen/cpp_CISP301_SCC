@@ -5,12 +5,12 @@
  * File Created: Monday August 31st 2020 05:31 pm
  * Author: Microzenas(Microzenas@gmail.com)
  * -----
- * Last Modified: Friday September 4th 2020 10:37 pm
+ * Last Modified: Saturday September 5th 2020 04:01 pm
  * Modified By: Microzenas
  * -----------------------------------------------------------------------
  */
 #include <iostream>
-using namespace std;
+// using namespace std;
 
 void welcome();
 void inputData(double &pounds);
@@ -32,15 +32,15 @@ int main()
 //
 void welcome()
 {
-    cout << "Welcome to the Candy Sale Program!" << endl;
+    std::cout << "Welcome to the Candy Sale Program!" << std::endl;
 }
 //
 // input a data of pounds.
 //
 void inputData(double &pounds)
 {
-    cout << "How many pounds candy would you want today?\n";
-    cin >> pounds;
+    std::cout << "How many pounds candy would you want today?\n";
+    std::cin >> pounds;
 }
 /*
 *   get the price of candy by pounds.
@@ -66,5 +66,5 @@ void getCandyPrice(double &pounds, double &price)
 
 void outputResult(double &total)
 {
-    cout << "The price of candy is " << total << endl;
+    std::cout << "The price of candy is " << total << std::endl;
 }
