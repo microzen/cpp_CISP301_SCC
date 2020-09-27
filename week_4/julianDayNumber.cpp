@@ -5,7 +5,7 @@
  * File Created: Saturday September 19th 2020 07:22 pm
  * Author: Microzenas(Microzenas@gmail.com)
  * -----
- * Last Modified: Sunday September 27th 2020 02:36 pm
+ * Last Modified: Sunday September 27th 2020 02:39 pm
  * Modified By: Microzenas
  * -----------------------------------------------------------------------
  */
@@ -18,7 +18,7 @@ int main(int argc, char *argv[])
 {
    // using for recording date
    int year, month, day;
-   // using for recording the result for JDN
+   // using for recording the result for julian dya number
    int jdn;
 
    inputDate(year, month, day);
